@@ -1,6 +1,3 @@
-// This file is auto-detected by Choreo.
-// Choreo will let you set window.configs.apiUrl in its dashboard at deploy time.
-// For local development, leave apiUrl empty — the Vite proxy handles /api/* calls.
 window.configs = {
-  apiUrl: ""
+  apiUrl: "https://65e75da5-a69d-4524-8735-4a9b5f93072a-dev.e1-us-east-azure.choreoapis.dev/default/backend/v1.0"
 };
