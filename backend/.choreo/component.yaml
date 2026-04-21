@@ -8,5 +8,4 @@ endpoints:
     networkVisibilities:
       - Public
     context: /
-    security:
-      - type: None
+    security: []
