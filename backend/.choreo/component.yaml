@@ -1,7 +1,9 @@
 schemaVersion: 1.2
 endpoints:
-  - name: ElectroShop API
-    port: 5000
+  - name: electroshop-api
+    service:
+      name: electroshop-api
+      port: 5000
     type: REST
     networkVisibilities:
       - Public
